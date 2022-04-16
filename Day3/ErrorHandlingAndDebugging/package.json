@@ -1,0 +1,15 @@
+{
+  "name": "errorhandlinganddebugging",
+  "version": "1.0.0",
+  "description": "This is the package for Error handling and debugging",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Kousik Das",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
