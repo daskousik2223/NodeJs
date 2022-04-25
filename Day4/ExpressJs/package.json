@@ -2,10 +2,10 @@
   "name": "errorhandlinganddebugging",
   "version": "1.0.0",
   "description": "This is the package for express js",
-  "main": "app.js",
+  "main": "requestprocessor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon assignment.js"
+    "start": "nodemon requestprocessor.js"
   },
   "author": "Kousik Das",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.17.3"
   }
 }
