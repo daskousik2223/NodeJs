@@ -8,12 +8,12 @@ exports.getAddProduct = (req, res, next) => {
       productCSS: true,
       activeAddProduct: true
     });
-}
+};
 
 exports.addNewProduct = (req, res, next) => {
     products.push({ title: req.body.title });
     res.redirect('/');
-}
+};
 
 exports.getProducts = (req, res, next) => {
     res.render('shop', {
@@ -24,4 +24,4 @@ exports.getProducts = (req, res, next) => {
       activeShop: true,
       productCSS: true
     });
-}
+};
